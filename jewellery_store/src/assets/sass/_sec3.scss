@@ -1,0 +1,44 @@
+.sec3{
+    background: #2b2b2c;
+    padding: 30px 0px;
+    .service{
+        .left{
+            i{
+                font-size: 30px;
+                color: #767676;
+            }
+            margin-right: 10px;
+        }
+        &:hover{
+            cursor: pointer;
+            i{
+                color: #CD9E70;
+            }
+            h4{
+                color: #CD9E70 !important;
+            }
+        }
+        .right{
+            h4{
+                font-size: 16px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            h5{
+                font-size: 14px;
+                color: #8a8a8a;
+                margin-top: -8px;
+                font-weight: normal;
+                color: #767676;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .sec3{
+        .service{
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.sec10{
+    background: #2b2b2c;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    .row{
+        padding: 20px 0;
+        h1{
+            font-size: 35px;
+            color: #fff;
+            margin-left: 2%;
+            width: 300px;
+        }
+        .col-5{
+            width: 675px;
+            img{
+                width: 308.95px;
+                height: 308.95px;
+                border-radius: 10px;
+            }
+            .content{
+                width: 306px;
+                h3{
+                    font-size: 20px;
+                    color: #e8a86e;
+                }
+                p{
+                    font-size: 14px;
+                    color: #8a8a8a;
+                    width: 266px;
+                    line-height: 27px;
+                    margin: 30px 0;
+                }
+                button{
+                    padding: 18px 42px;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 14px;
+                    background: #e8a86e;
+                    transition: .3s;
+                    &:hover{
+                        color: #fff;
+                        background: #434343;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    .sec10{
+        .row{
+            display: flex;
+            justify-content: center;
+            h1{
+                text-align: center;
+            }
+            .col-5{
+                margin-bottom: 3%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 655px){
+    // .sec10{
+    //     .col-5{
+    //         width: 90%;
+    //         img{
+    //             width: 50%;
+    //         }
+    //         .content{
+    //             width: 40%;
+    //             h3{
+    //                 width: 100%;
+    //             }
+    //             p{
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
+    .sec10{
+        .col-5{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3%;
+            img{
+                width: 60%;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
